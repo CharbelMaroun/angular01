@@ -1,0 +1,9 @@
+<div *ngFor="let x of data" class="col-lg-6 menu-item filter-starters">
+  <img src="{{x.imgSrc}}" class="menu-img" alt="">
+  <div class="menu-content">
+    <a href="#">{{x.menu}}</a><span>{{x.price}}</span>
+  </div>
+  <div class="menu-ingredients">
+    {{x.ingredients}}
+  </div>
+</div>
